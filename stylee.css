@@ -28,12 +28,19 @@
   padding-top: 50px;
   padding-bottom: 10px;
   margin: 5px auto;
-  width: 50%;
-  max-width: 50%;
+  width: 90%;
+  max-width: 90%;
   line-height: 1.5;
 }
 
-
+.expp {
+  position: relative;
+  bottom: 1px;
+  font-size: .8em;
+  line-height: .8em;
+  vertical-align:super;
+  text-decoration:none;
+  }
 
 
 /* Transition pour tous les éléments de #Edit */
@@ -708,10 +715,11 @@ a {
 	float: left;
 	padding: 1.6em 1em;
 	font-size: 1.5rem;
-	text-align: center;
-	white-space: nowrap;
+	text-align: left;
+	white-space: normal;
 	overflow: hidden;
 	text-overflow: ellipsis;
+  line-height: 1.5; /* Ajuste l'espacement entre les lignes */
 }
 
 .pricing-features em {
