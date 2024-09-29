@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="fr-FR" >
+	<head>
+		<meta charset="UTF-8">
+		<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>SAFIANCE - Simulateurs prestations comptables et fiscales - Autres Activités</title>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+		<link rel="icon" href="https://safiance.fr/app/uploads/sites/642/2024/04/cropped-favicon-32x32.png" sizes="32x32" />
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	  <meta name="viewport" content="width=device-width"><link rel="stylesheet" href="./stylee.css">
+	  
+	  <meta name="description" content="Expert-comptable - Simulateurs des prestations comptables et fiscales activités diverses - comptabilité et fiscalité - LA CIOTAT" />
+	  <link rel="canonical" href="https://safiance.fr/" />
+	  <meta property="og:locale" content="fr_FR" />
+	  <meta property="og:type" content="website" />
+	  <meta property="og:title" content="Safiance - Votre solution au-delà des chiffres !" />
+	  <meta property="og:description" content="Expert-comptable - Simulateurs des prestations comptables et fiscales activités diverses - comptabilité et fiscalité - LA CIOTAT" />
+	  <meta property="og:url" content="https://safiance.fr/" />
+	  <meta property="og:site_name" content="Safiance" />
+	  <meta property="article:modified_time" content="2024-07-04T12:43:41+00:00" />
+	  <meta name="twitter:card" content="summary_large_image" />
+	  
+	  
+	  </head>
+<body>
+<!-- partial:index.partial.html -->
+<a target="_blank" href="https://safiance.fr"><img src="https://safiance.fr/app/uploads/sites/642/2024/04/Safiance-logo-header.svg" alt="logo SAFIANCE" style="padding:50px"/></a>
+<div id="Edit">
+<span style="margin-top: -100px; text-transform:uppercase; color: #fff; font-size: 30px; position:absolute; left:50%; transform: translateX(-50%);">Activités autres que libérales</span>
+
+		<input type="text" placeholder="Entrez votre activité" id="activity" name="activity" onkeyup="filterResults()" autocomplete="off" required>
+		<div id="autocomplete-list" class="autocomplete-items"></div>
+</div>
+
+
+	<h1><span id="selected-sector" style="font-size: 30px; left:50%; transform: translateX(-50%);">--</span></h1>
+
+<div class="pricing-container">
+		<div class="pricing-switcher">
+			<p class="fieldset">
+				<input type="radio" name="duration-1" value="monthly" id="monthly-1" checked>
+				<label for="monthly-1">HT</label>
+				<input type="radio" name="duration-1" value="yearly" id="yearly-1">
+				<label for="yearly-1">TTC</label>
+				<span class="switch"></span>
+			</p>
+		</div>
+
+
+		<ul class="pricing-list bounce-invert">
+			<li>
+				<ul class="pricing-wrapper">
+					<li data-type="monthly" class="is-visible">
+						<header class="pricing-header">
+							<span style="
+							display: inline-block;
+							color: #1a2a4a;
+							padding: 5px 15px;
+							border-radius: 20px;
+							font-size: 14px;
+							font-weight: bold;
+							text-transform: uppercase;
+							letter-spacing: 1px;
+							position: relative;
+							top: -10px;
+						"> 
+							</span>
+							<h2>Essentiel</h2>
+							<div class="price">
+								<span class="currency">€</span>
+								<span class="value" id="price-essentiel">--</span>
+								<span class="duration">mois</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+
+								
+								<li class="separator"><span class="separator-title">Gestion opérationnelle</span></li>
+								<li >Établissement des comptes annuels</li>
+								<li >Traitement des déclarations fiscales</li>
+								<li >Traitement de vos cotisations URSSAF pour indépendants</li>
+								<li >Traitement des obligations comptables</li>
+								<li >Récupération des flux mensuels</li>
+								<li class="disabled">Optimisation des procédures comptables internes</li>
+								<li class="separator"><span class="separator-title">Communication</span></li>
+								<li >Attestation de l’expert-comptable</li>
+								<li >Compte-rendu des travaux de l’expert-comptable</li>
+								<li >Conseils <em>ponctuels</em></li>
+								<li >Rendez-vous bilan annuel</li>
+								<li >Accès à un portail de dépôt sécurisé</li>
+								<li >Accès à la newsletter</li>
+								<li ><em>5/7j</em> support client (téléphone & e-mail)</li>
+								<li class="disabled">Rendez-vous d’atterrissage (3 mois avant la clôture)</li>
+								<li class="disabled">Rendez-vous <em>trimestriels ou mensuels</em></li>
+								<li class="disabled">Rendez-vous patrimonial</li>
+								<li class="disabled">Business coaching inclus</li>
+								<li class="separator"><span class="separator-title">Gestion de la performance</span></li>
+								<li >Accompagnement à la digitalisation</li>
+								<li class="disabled">Mise en place de tableau de bord personnalisable</li>
+								<li class="disabled">Sélection de KPI<sup class="expp">(1)</sup> </li>
+								<li class="disabled">Suivi et analyse de KPI<sup class="expp">(1)</sup>  <em>trimestriel ou mensuel</em></li>
+								<li class="disabled">Analyse comparative sectorielle</li>
+								<li class="disabled">Tableau de bord dynamique en ligne</li>
+								<li class="disabled">Optimisation proactive des charges fixes et variables</li>
+								<li class="disabled">Gestion des relances fournisseurs</li>
+								<li class="disabled">Optimisation de la rémunération</li>
+								<li class="disabled">Rapport de gestion simplifié</li>
+								<li class="disabled">Audit interne en continu des processus de gestion</li>
+								<li class="disabled">Établissement de budget prévisionnel de trésorerie</li>
+								<li class="disabled">Suivi et analyse du budget prévisionnel</li>
+								<li class="disabled">Mise en place d'alertes personnalisées</li>
+								<li class="disabled">Gestion des relances clients</li>
+								<li class="separator"><span class="separator-title">Gestion patrimoniale</span></li>
+								<li class="disabled">Audit de patrimoine annuel</li>
+								<li class="disabled">Stratégies d'optimisation retraite</li>
+								<li class="disabled">Optimisation de votre protection sociale</li>
+								<li class="disabled">Optimisation de votre fiscalité personnelle</li>							
+								
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" target="_blank" href="https://zcal.co/guillaumemailey/30min">Prendre Rendez-vous</a>
+						</footer>
+					</li>
+					<li data-type="yearly" class="is-hidden">
+						<header class="pricing-header">
+							<span style="
+							display: inline-block;
+							color: #1a2a4a;
+							padding: 5px 15px;
+							border-radius: 20px;
+							font-size: 14px;
+							font-weight: bold;
+							text-transform: uppercase;
+							letter-spacing: 1px;
+							position: relative;
+							top: -10px;
+						"> 
+							</span>
+							<h2>Essentiel</h2>
+							<div class="price">
+								<span class="currency">€</span>
+								<span class="value" id="price-essentiel-ttc">--</span>
+								<span class="duration">mois</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li class="separator"><span class="separator-title">Gestion opérationnelle</span></li>
+								<li >Établissement des comptes annuels</li>
+								<li >Traitement des déclarations fiscales</li>
+								<li >Traitement de vos cotisations URSSAF pour indépendants</li>
+								<li >Traitement des obligations comptables</li>
+								<li >Récupération des flux mensuels</li>
+								<li class="disabled">Optimisation des procédures comptables internes</li>
+								<li class="separator"><span class="separator-title">Communication</span></li>
+								<li >Attestation de l’expert-comptable</li>
+								<li >Compte-rendu des travaux de l’expert-comptable</li>
+								<li >Conseils <em>ponctuels</em></li>
+								<li >Rendez-vous bilan annuel</li>
+								<li >Accès à un portail de dépôt sécurisé</li>
+								<li >Accès à la newsletter</li>
+								<li ><em>5/7j</em> support client (téléphone & e-mail)</li>
+								<li class="disabled">Rendez-vous d’atterrissage (3 mois avant la clôture)</li>
+								<li class="disabled">Rendez-vous <em>trimestriels ou mensuels</em></li>
+								<li class="disabled">Rendez-vous patrimonial</li>
+								<li class="disabled">Business coaching inclus</li>
+								<li class="separator"><span class="separator-title">Gestion de la performance</span></li>
+								<li >Accompagnement à la digitalisation</li>
+								<li class="disabled">Mise en place de tableau de bord personnalisable</li>
+								<li class="disabled">Sélection de KPI<sup class="expp">(1)</sup> </li>
+								<li class="disabled">Suivi et analyse de KPI<sup class="expp">(1)</sup>  <em>trimestriels ou mensuels</em></li>
+								<li class="disabled">Analyse comparative sectorielle</li>
+								<li class="disabled">Tableau de bord dynamique en ligne</li>
+								<li class="disabled">Optimisation proactive des charges fixes et variables</li>
+								<li class="disabled">Gestion des relances fournisseurs</li>
+								<li class="disabled">Optimisation de la rémunération</li>
+								<li class="disabled">Rapport de gestion simplifié</li>
+								<li class="disabled">Audit interne en continu des processus de gestion</li>
+								<li class="disabled">Établissement de budget prévisionnel de trésorerie</li>
+								<li class="disabled">Suivi et analyse du budget prévisionnel</li>
+								<li class="disabled">Mise en place d'alertes personnalisées</li>
+								<li class="disabled">Gestion des relances clients</li>
+								<li class="separator"><span class="separator-title">Gestion patrimoniale</span></li>
+								<li class="disabled">Audit de patrimoine annuel</li>
+								<li class="disabled">Stratégies d'optimisation retraite</li>
+								<li class="disabled">Optimisation de votre protection sociale</li>
+								<li class="disabled">Optimisation de votre fiscalité personnelle</li>
+								
+								
+								
+								
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" target="_blank" href="https://zcal.co/guillaumemailey/30min">Prendre Rendez-vous</a>
+						</footer>
+					</li>
+				</ul>
+			</li>
+
+
+
+
+
+			<li>
+				<ul class="pricing-wrapper">
+					<li data-type="monthly" class="is-visible">
+						<header class="pricing-header">
+							<span style="
+							display: inline-block;
+							color: #1a2a4a;
+							padding: 5px 15px;
+							border-radius: 20px;
+							font-size: 14px;
+							font-weight: bold;
+							text-transform: uppercase;
+							letter-spacing: 1px;
+							position: relative;
+							top: -10px;
+						"> 
+							</span>
+							<h2>Confort</h2>
+							<div class="price">
+								<span class="currency">€</span>
+								<span class="value" id="price-confort">--</span>
+								<span class="duration">mois</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li class="separator"><span class="separator-title">Gestion opérationnelle</span></li>
+								<li >Établissement des comptes annuels</li>
+								<li >Traitement des déclarations fiscales</li>
+								<li >Traitement de vos cotisations URSSAF pour indépendants</li>
+								<li >Traitement des obligations comptables</li>
+								<li >Récupération des flux mensuels</li>
+								<li >Optimisation des procédures comptables internes</li>
+								<li class="separator"><span class="separator-title">Communication</span></li>
+								<li >Attestation de l’expert-comptable</li>
+								<li >Compte-rendu des travaux de l’expert-comptable</li>
+								<li >Conseils <em>ponctuels</em></li>
+								<li >Rendez-vous bilan annuel</li>
+								<li >Accès à un portail de dépôt sécurisé</li>
+								<li >Accès à la newsletter</li>
+								<li ><em>5/7j</em> support client (téléphone & e-mail)</li>
+								<li >Rendez-vous d’atterrissage (3 mois avant la clôture)</li>
+								<li class="disabled">Rendez-vous <em>trimestriels ou mensuels</em></li>
+								<li class="disabled">Rendez-vous patrimonial</li>
+								<li class="disabled">Business coaching inclus</li>
+								<li class="separator"><span class="separator-title">Gestion de la performance</span></li>
+								<li >Accompagnement à la digitalisation</li>
+								<li >Mise en place de tableau de bord personnalisable</li>
+								<li >Sélection de KPI<sup class="expp">(1)</sup> </li>
+								<li >Suivi et analyse de KPI<sup class="expp">(1)</sup>  <em>trimestriel</em></li>
+								<li >Analyse comparative sectorielle</li>
+								<li class="disabled">Tableau de bord dynamique en ligne</li>
+								<li class="disabled">Optimisation proactive des charges fixes et variables</li>
+								<li class="disabled">Gestion des relances fournisseurs</li>
+								<li class="disabled">Optimisation de la rémunération</li>
+								<li class="disabled">Rapport de gestion simplifié</li>
+								<li class="disabled">Audit interne en continu des processus de gestion</li>
+								<li class="disabled">Établissement de budget prévisionnel de trésorerie</li>
+								<li class="disabled">Suivi et analyse du budget prévisionnel</li>
+								<li class="disabled">Mise en place d'alertes personnalisées</li>
+								<li class="disabled">Gestion des relances clients</li>
+								<li class="separator"><span class="separator-title">Gestion patrimoniale</span></li>
+								<li class="disabled">Audit de patrimoine annuel</li>
+								<li class="disabled">Stratégies d'optimisation retraite</li>
+								<li class="disabled">Optimisation de votre protection sociale</li>
+								<li class="disabled">Optimisation de votre fiscalité personnelle</li>
+								
+								
+								
+
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" target="_blank" href="https://zcal.co/guillaumemailey/30min">Prendre Rendez-vous</a>
+						</footer>
+					</li>
+					<li data-type="yearly" class="is-hidden">
+						<header class="pricing-header">
+							<span style="
+							display: inline-block;
+							color: #1a2a4a;
+							padding: 5px 15px;
+							border-radius: 20px;
+							font-size: 14px;
+							font-weight: bold;
+							text-transform: uppercase;
+							letter-spacing: 1px;
+							position: relative;
+							top: -10px;
+						"> 
+							</span>
+							<h2>Confort</h2>
+							<div class="price">
+								<span class="currency">€</span>
+								<span class="value" id="price-confort-ttc">--</span>
+								<span class="duration">mois</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li class="separator"><span class="separator-title">Gestion opérationnelle</span></li>
+								<li >Établissement des comptes annuels</li>
+								<li >Traitement des déclarations fiscales</li>
+								<li >Traitement de vos cotisations URSSAF pour indépendants</li>
+								<li >Traitement des obligations comptables</li>
+								<li >Récupération des flux mensuels</li>
+								<li >Optimisation des procédures comptables internes</li>
+								<li class="separator"><span class="separator-title">Communication</span></li>
+								<li >Attestation de l’expert-comptable</li>
+								<li >Compte-rendu des travaux de l’expert-comptable</li>
+								<li >Conseils <em>ponctuels</em></li>
+								<li >Rendez-vous bilan annuel</li>
+								<li >Accès à un portail de dépôt sécurisé</li>
+								<li >Accès à la newsletter</li>
+								<li ><em>5/7j</em> support client (téléphone & e-mail)</li>
+								<li >Rendez-vous d’atterrissage (3 mois avant la clôture)</li>
+								<li class="disabled">Rendez-vous <em>trimestriels ou mensuels</em></li>
+								<li class="disabled">Rendez-vous patrimonial</li>
+								<li class="disabled">Business coaching inclus</li>
+								<li class="separator"><span class="separator-title">Gestion de la performance</span></li>
+								<li >Accompagnement à la digitalisation</li>
+								<li >Mise en place de tableau de bord personnalisable</li>
+								<li >Sélection de KPI<sup class="expp">(1)</sup> </li>
+								<li >Suivi et analyse de KPI<sup class="expp">(1)</sup>  <em>trimestriel</em></li>
+								<li >Analyse comparative sectorielle</li>
+								<li class="disabled">Tableau de bord dynamique en ligne</li>
+								<li class="disabled">Optimisation proactive des charges fixes et variables</li>
+								<li class="disabled">Gestion des relances fournisseurs</li>
+								<li class="disabled">Optimisation de la rémunération</li>
+								<li class="disabled">Rapport de gestion simplifié</li>
+								<li class="disabled">Audit interne en continu des processus de gestion</li>
+								<li class="disabled">Établissement de budget prévisionnel de trésorerie</li>
+								<li class="disabled">Suivi et analyse du budget prévisionnel</li>
+								<li class="disabled">Mise en place d'alertes personnalisées</li>
+								<li class="disabled">Gestion des relances clients</li>
+								<li class="separator"><span class="separator-title">Gestion patrimoniale</span></li>
+								<li class="disabled">Audit de patrimoine annuel</li>
+								<li class="disabled">Stratégies d'optimisation retraite</li>
+								<li class="disabled">Optimisation de votre protection sociale</li>
+								<li class="disabled">Optimisation de votre fiscalité personnelle</li>
+								
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" target="_blank" href="https://zcal.co/guillaumemailey/30min">Prendre Rendez-vous</a>
+						</footer>
+					</li>
+				</ul>
+			</li>
+
+
+
+
+
+
+
+
+
+
+
+
+			<li class="exclusive">
+				<ul class="pricing-wrapper">
+					<li data-type="monthly" class="is-visible">
+						<header class="pricing-header">
+					<span style="
+						display: inline-block;
+						background: linear-gradient(45deg, #D4ac17, #f0dd97);
+						color: #1a2a4a;
+						padding: 5px 15px;
+						border-radius: 20px;
+						font-size: 14px;
+						font-weight: bold;
+						text-transform: uppercase;
+						box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+						letter-spacing: 1px;
+						position: relative;
+						top: -10px;
+					">
+					Recommandé
+					</span>
+							<h2>Optim</h2>
+							<div class="price">
+								<span class="currency">€</span>
+								<span class="value" id="price-optim">--</span>
+								<span class="duration">mois</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li class="separator"><span class="separator-title">Gestion opérationnelle</span></li>
+								<li >Établissement des comptes annuels</li>
+								<li >Traitement des déclarations fiscales</li>
+								<li >Traitement de vos cotisations URSSAF pour indépendants</li>
+								<li >Traitement des obligations comptables</li>
+								<li >Récupération des flux mensuels</li>
+								<li >Optimisation des procédures comptables internes</li>
+								<li class="separator"><span class="separator-title">Communication</span></li>
+								<li >Attestation de l’expert-comptable</li>
+								<li >Compte-rendu des travaux de l’expert-comptable</li>
+								<li >Conseils <em>illimités</em></li>
+								<li >Rendez-vous bilan annuel</li>
+								<li >Accès à un portail de dépôt sécurisé</li>
+								<li >Accès à la newsletter</li>
+								<li ><em>5/7j</em> support client (téléphone & e-mail)</li>
+								<li >Rendez-vous d’atterrissage (3 mois avant la clôture)</li>
+								<li >Rendez-vous <em>trimestriels</em></li>
+								<li >Rendez-vous patrimonial</li>
+								<li >Business coaching inclus</li>
+								<li class="separator"><span class="separator-title">Gestion de la performance</span></li>
+								<li >Accompagnement à la digitalisation</li>
+								<li >Mise en place de tableau de bord personnalisable</li>
+								<li >Sélection de KPI<sup class="expp">(1)</sup> </li>
+								<li >Suivi et analyse de KPI<sup class="expp">(1)</sup>  <em>mensuel</em></li>
+								<li >Analyse comparative sectorielle</li>
+								<li >Tableau de bord dynamique en ligne</li>
+								<li >Optimisation proactive des charges fixes et variables</li>
+								<li >Gestion des relances fournisseurs</li>
+								<li >Optimisation de la rémunération</li>
+								<li class="disabled">Rapport de gestion simplifié</li>
+								<li class="disabled">Audit interne en continu des processus de gestion</li>
+								<li class="disabled">Établissement de budget prévisionnel de trésorerie</li>
+								<li class="disabled">Suivi et analyse du budget prévisionnel</li>
+								<li class="disabled">Mise en place d'alertes personnalisées</li>
+								<li class="disabled">Gestion des relances clients</li>
+								<li class="separator"><span class="separator-title">Gestion patrimoniale</span></li>
+								<li >Audit de patrimoine annuel</li>
+								<li class="disabled">Stratégies d'optimisation retraite</li>
+								<li class="disabled">Optimisation de votre protection sociale</li>
+								<li class="disabled">Optimisation de votre fiscalité personnelle</li>
+								
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" target="_blank" href="https://zcal.co/guillaumemailey/30min">Prendre Rendez-vous</a>
+						</footer>
+					</li>
+					<li data-type="yearly" class="is-hidden">
+						<header class="pricing-header">
+
+						<span style="
+							display: inline-block;
+							background: linear-gradient(45deg, #D4ac17, #f0dd97);
+							color: #1a2a4a;
+							padding: 5px 15px;
+							border-radius: 20px;
+							font-size: 14px;
+							font-weight: bold;
+							text-transform: uppercase;
+							box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+							letter-spacing: 1px;
+							position: relative;
+							top: -10px;
+						">
+						Recommandé
+						</span>
+							<h2>Optim</h2>
+							<div class="price">
+								<span class="currency">€</span>
+								<span class="value" id="price-optim-ttc">--</span>
+								<span class="duration">mois</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li class="separator"><span class="separator-title">Gestion opérationnelle</span></li>
+								<li >Établissement des comptes annuels</li>
+								<li >Traitement des déclarations fiscales</li>
+								<li >Traitement de vos cotisations URSSAF pour indépendants</li>
+								<li >Traitement des obligations comptables</li>
+								<li >Récupération des flux mensuels</li>
+								<li >Optimisation des procédures comptables internes</li>
+								<li class="separator"><span class="separator-title">Communication</span></li>
+								<li >Attestation de l’expert-comptable</li>
+								<li >Compte-rendu des travaux de l’expert-comptable</li>
+								<li >Conseils <em>illimités</em></li>
+								<li >Rendez-vous bilan annuel</li>
+								<li >Accès à un portail de dépôt sécurisé</li>
+								<li >Accès à la newsletter</li>
+								<li ><em>5/7j</em> support client (téléphone & e-mail)</li>
+								<li >Rendez-vous d’atterrissage (3 mois avant la clôture)</li>
+								<li >Rendez-vous <em>trimestriels</em></li>
+								<li >Rendez-vous patrimonial</li>
+								<li >Business coaching inclus</li>
+								<li class="separator"><span class="separator-title">Gestion de la performance</span></li>
+								<li >Accompagnement à la digitalisation</li>
+								<li >Mise en place de tableau de bord personnalisable</li>
+								<li >Sélection de KPI<sup class="expp">(1)</sup> </li>
+								<li >Suivi et analyse de KPI<sup class="expp">(1)</sup>  <em>mensuel</em></li>
+								<li >Analyse comparative sectorielle</li>
+								<li >Tableau de bord dynamique en ligne</li>
+								<li >Optimisation proactive des charges fixes et variables</li>
+								<li >Gestion des relances fournisseurs</li>
+								<li >Optimisation de la rémunération</li>
+								<li class="disabled">Rapport de gestion simplifié</li>
+								<li class="disabled">Audit interne en continu des processus de gestion</li>
+								<li class="disabled">Établissement de budget prévisionnel de trésorerie</li>
+								<li class="disabled">Suivi et analyse du budget prévisionnel</li>
+								<li class="disabled">Mise en place d'alertes personnalisées</li>
+								<li class="disabled">Gestion des relances clients</li>
+								<li class="separator"><span class="separator-title">Gestion patrimoniale</span></li>
+								<li >Audit de patrimoine annuel</li>
+								<li class="disabled">Stratégies d'optimisation retraite</li>
+								<li class="disabled">Optimisation de votre protection sociale</li>
+								<li class="disabled">Optimisation de votre fiscalité personnelle</li>
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" target="_blank" href="https://zcal.co/guillaumemailey/30min">Prendre Rendez-vous</a>
+						</footer>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="pricing-wrapper">
+					<li data-type="monthly" class="is-visible">
+						<header class="pricing-header">
+							<span style="
+							display: inline-block;
+							color: #1a2a4a;
+							padding: 5px 15px;
+							border-radius: 20px;
+							font-size: 14px;
+							font-weight: bold;
+							text-transform: uppercase;
+							letter-spacing: 1px;
+							position: relative;
+							top: -10px;
+						"> 
+							</span>
+							<h2>Conseil+</h2>
+							<div class="price">
+								<span class="currency">€</span>
+								<span class="value" id="price-conseil-plus">--</span>
+								<span class="duration">mois</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li class="separator"><span class="separator-title">Gestion opérationnelle</span></li>
+								<li >Établissement des comptes annuels</li>
+								<li >Traitement des déclarations fiscales</li>
+								<li >Traitement de vos cotisations URSSAF pour indépendants</li>
+								<li >Traitement des obligations comptables</li>
+								<li >Récupération des flux mensuels</li>
+								<li >Optimisation des procédures comptables internes</li>
+								<li class="separator"><span class="separator-title">Communication</span></li>
+								<li >Attestation de l’expert-comptable</li>
+								<li >Compte-rendu des travaux de l’expert-comptable</li>
+								<li >Conseils <em>illimités</em></li>
+								<li >Rendez-vous bilan annuel</li>
+								<li >Accès à un portail de dépôt sécurisé</li>
+								<li >Accès à la newsletter</li>
+								<li ><em>5/7j</em> support client (téléphone & e-mail)</li>
+								<li >Rendez-vous d’atterrissage (3 mois avant la clôture)</li>
+								<li >Rendez-vous <em>mensuels</em></li>
+								<li >Rendez-vous patrimonial</li>
+								<li >Business coaching inclus</li>
+								<li class="separator"><span class="separator-title">Gestion de la performance</span></li>
+								<li >Accompagnement à la digitalisation</li>
+								<li >Mise en place de tableau de bord personnalisable</li>
+								<li >Sélection de <sup class="expp">(1)</sup> </li>
+								<li >Suivi et analyse de KPI<sup class="expp">(1)</sup>  <em>mensuel</em></li>
+								<li >Analyse comparative sectorielle</li>
+								<li >Tableau de bord dynamique en ligne</li>
+								<li >Optimisation proactive des charges fixes et variables</li>
+								<li >Gestion des relances fournisseurs</li>
+								<li >Optimisation de la rémunération</li>
+								<li >Rapport de gestion simplifié</li>
+								<li >Audit interne en continu des processus de gestion</li>
+								<li >Établissement de budget prévisionnel de trésorerie</li>
+								<li >Suivi et analyse du budget prévisionnel</li>
+								<li >Mise en place d'alertes personnalisées</li>
+								<li >Gestion des relances clients</li>
+								<li class="separator"><span class="separator-title">Gestion patrimoniale</span></li>
+								<li >Audit de patrimoine annuel</li>
+								<li >Stratégies d'optimisation retraite</li>
+								<li >Optimisation de votre protection sociale</li>
+								<li >Optimisation de votre fiscalité personnelle</li>
+								
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" target="_blank" href="https://zcal.co/guillaumemailey/30min">Prendre Rendez-vous</a>
+						</footer>
+					</li>
+					<li data-type="yearly" class="is-hidden">
+						<header class="pricing-header">
+							<span style="
+							display: inline-block;
+							color: #1a2a4a;
+							padding: 5px 15px;
+							border-radius: 20px;
+							font-size: 14px;
+							font-weight: bold;
+							text-transform: uppercase;
+							letter-spacing: 1px;
+							position: relative;
+							top: -10px;
+						"> 
+							</span>
+							<h2>Conseil+</h2>
+							<div class="price">
+								<span class="currency">€</span>
+								<span class="value" id="price-conseil-plus-ttc">--</span>
+								<span class="duration">mois</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li class="separator"><span class="separator-title">Gestion opérationnelle</span></li>
+								<li >Établissement des comptes annuels</li>
+								<li >Traitement des déclarations fiscales</li>
+								<li >Traitement de vos cotisations URSSAF pour indépendants</li>
+								<li >Traitement des obligations comptables</li>
+								<li >Récupération des flux mensuels</li>
+								<li >Optimisation des procédures comptables internes</li>
+								<li class="separator"><span class="separator-title">Communication</span></li>
+								<li >Attestation de l’expert-comptable</li>
+								<li >Compte-rendu des travaux de l’expert-comptable</li>
+								<li >Conseils <em>illimités</em></li>
+								<li >Rendez-vous bilan annuel</li>
+								<li >Accès à un portail de dépôt sécurisé</li>
+								<li >Accès à la newsletter</li>
+								<li ><em>5/7j</em> support client (téléphone & e-mail)</li>
+								<li >Rendez-vous d’atterrissage (3 mois avant la clôture)</li>
+								<li >Rendez-vous <em>mensuels</em></li>
+								<li >Rendez-vous patrimonial</li>
+								<li >Business coaching inclus</li>
+								<li class="separator"><span class="separator-title">Gestion de la performance</span></li>
+								<li >Accompagnement à la digitalisation</li>
+								<li >Mise en place de tableau de bord personnalisable</li>
+								<li >Sélection de KPI<sup class="expp">(1)</sup> </li>
+								<li >Suivi et analyse de KPI<sup class="expp">(1)</sup>  <em>mensuel</em></li>
+								<li >Analyse comparative sectorielle</li>
+								<li >Tableau de bord dynamique en ligne</li>
+								<li >Optimisation proactive des charges fixes et variables</li>
+								<li >Gestion des relances fournisseurs</li>
+								<li >Optimisation de la rémunération</li>
+								<li >Rapport de gestion simplifié</li>
+								<li >Audit interne en continu des processus de gestion</li>
+								<li >Établissement de budget prévisionnel de trésorerie</li>
+								<li >Suivi et analyse du budget prévisionnel</li>
+								<li >Mise en place d'alertes personnalisées</li>
+								<li >Gestion des relances clients</li>
+								<li class="separator"><span class="separator-title">Gestion patrimoniale</span></li>
+								<li >Audit de patrimoine annuel</li>
+								<li >Stratégies d'optimisation retraite</li>
+								<li >Optimisation de votre protection sociale</li>
+								<li >Optimisation de votre fiscalité personnelle</li>								
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" target="_blank" href="https://zcal.co/guillaumemailey/30min">Prendre Rendez-vous</a>
+						</footer>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		<blockquote class="stacked">
+			<p><sup class="expp">(1)</sup> Les KPI (Key Performance Indicators) sont des indicateurs de performance cléfs pour évaluer suivre l'activité de votre entité. Ils aident à mesurer vos résultats dans différents domaines (ventes, finances, etc.) et à prendre des décisions basées sur des données précises.</p>
+			<p>Ces prix sont estimatifs et peuvent varier. Ils ont pour but de vous informer des conditions tarifaires potentielles. 
+			Nos honoraires, exclusifs de toute autre rémunération sont déterminés en fonction du niveau de responsabilité, de la nature et de la complexité des travaux effectués et du temps passé.
+			Cette estimation ne constitue ni un devis, ni une facture, ni une lettre de mission. Une lettre de mission devra être établie et signée avant toute intervention de notre part.</p>
+	  </blockquote>
+	</div>
+
+<!-- partial -->
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script><script  src="./script.js"></script>
+<script  src="scriptalib.js"></script>
+</body>
+</html>
