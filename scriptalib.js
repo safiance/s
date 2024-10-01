@@ -61,6 +61,7 @@ const secteurs = [
   { secteur: "Fossoyeur", prix: 180 },
   { secteur: "Taxi", prix: 180 },
   { secteur: "VTC", prix: 180 },
+  { secteur: "Transporteur", prix: 220 },
   { secteur: "Ambulance", prix: "Sur Rendez-vous" },
   { secteur: "SCI Revenu foncier", prix: 45 },
   { secteur: "SCI IS", prix: 45 },
